@@ -12,29 +12,40 @@ background-position: relative;
   color:rgb(255, 255, 255)
 }
 
-
-.logo img{
-  max-width: 3vh;
-  max-height: 3vh;
-  border-radius: 50%;
-  float: left;
-  margin-top: -11vh;
-  margin-left: 18vh;
-  padding: 3vh;  
+.heading .navbar{
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.heading .navbar ul{
+  list-style-type: none;
+  margin-right: 5vh;
 
 }
-.backGround{
-  color:rgb(255, 255, 255)
+.navbar ul li{
+  display: inline;
+  margin-right: 10vh; /*set the gap between home-project-contact*/
+  border: 1px solid rgb(37, 37, 37);
+  padding: 10px; /*size of border box*/
+  border-radius: 10px;
+  box-shadow: 1px 3px 1px rgb(33, 33, 33);
+  
+
+}
+.navbar ul li a{
+text-decoration: none;
+font-size: 3vh;
+font-weight: 600;
+color: aqua;
+}
+ 
+
+
+.greetings{
+  color:rgb(255, 255, 255);
+  margin-left: 15vh;
+  margin-top: 5vh;
 }
 
-.greet{
- left: 10vh;
-  top: 15vh;
- position: absolute;
-}
 
-p {
-  left: 9vh;
-  top: 20vh;
- position: absolute;
-}
+
