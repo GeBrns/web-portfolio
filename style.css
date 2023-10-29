@@ -1,51 +1,111 @@
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(2,4,6,1) 100%);
-margin-top: 2px;
-background-position: relative;
-
+  padding: 0;
 }
 
-.heading{
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(2,4,6,1) 100%);
+}
+
+
+#heading{
   color:rgb(255, 255, 255)
 }
 
-.heading .navbar{
+#heading .navbar{
   padding: 0;
-  margin: 0;
-  float: right;
 }
-.heading .navbar ul{
-  list-style-type: none;
-  margin-right: 5vh;
 
-}
+#heading .navbar ul{
+  list-style-type: none;
+  margin-left: 90vh;
+   }
+
 .navbar ul li{
   display: inline;
   margin-right: 10vh; /*set the gap between home-project-contact*/
-  border: 1px solid rgb(37, 37, 37);
   padding: 10px; /*size of border box*/
-  border-radius: 10px;
-  box-shadow: 1px 3px 1px rgb(33, 33, 33);
-  
-
 }
+
 .navbar ul li a{
 text-decoration: none;
-font-size: 3vh;
+font-size: 4vh;
 font-weight: 600;
 color: aqua;
 }
+
+ul a:hover { color: darkgoldenrod !important; }
  
 
 
-.greetings{
+#greetings{
   color:rgb(255, 255, 255);
   margin-left: 15vh;
-  margin-top: 5vh;
+  margin-top: 11vh;
 }
+
+.container{
+  display: flex;
+  margin-top: 40vh;
+}
+
+.contact-left{
+  flex-basis: 35%;
+  color: aliceblue;
+  margin-left: 5vh;
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
+
+
+.contact-left p {
+  margin-top: 1vh;
+}
+
+.contact-left p i {
+  color: aqua;
+  font-size: 3vh;
+  margin-right: 2vh;
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  background: white;
+  color:black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: aqua!important;
+  color: black !important;
+}
+
+.btn-primary{
+  margin-top: 20px;
+  font-size: larger;
+}
+
+
+
 
 
 
